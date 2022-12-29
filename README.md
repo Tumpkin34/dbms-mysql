@@ -13,21 +13,21 @@
 - CRUD 작성(oracle과 유사함)
 
 # MySQL 자료형
-- 정수
+- 정수<br>
   tinyint<br>
   smallint<br>
   mediumint<br>
   int : 보통 이걸 쓰자!<br>
   bigint<br>
 
-- 실수
+- 실수<br>
   decimal(m, d) : m자리 정수, d자리 소수점으로 표현<br>
 
-- 날짜
+- 날짜<br>
   date : 1000-01-01 ~ 9999-12-31(3byte)<br>
   time : -838:59:59 ~ 838:59:59(3byte)<br>
   datetime : 1000-01-01 00:00:00 ~ 9999-12-31 23:59:59(8byte)<br>
 
-- 문자
+- 문자<br>
   char(m) : 고정 길이 문자열(0~255)<br>
   varchar(m) : 가변 길이 문자열(0~65535)<br>
